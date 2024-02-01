@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:id="@+id/head"
+    android:background="@color/blue">
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back_arrow"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SIGN IN"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:hint="Email"
+        android:minHeight="48dp"></EditText>
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:hint="Password"
+        android:minHeight="48dp"></EditText>
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        android:padding="10dp"
+        android:text="SIGN IN"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        ></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don’t have an account?"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="16dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/clickablenext"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:text="SIGNUP"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+
+
+        android:textStyle="italic"></TextView>
+
+
+</LinearLayout>
+
+
